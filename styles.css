@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.main-image {
+    width: 500px;
+    height: auto;
+    transform: translateX(30px)
+}
+
+div.my-name {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+div.main-info {
+    display: inline-flex;
+}
+
+div.main-info-text {
+    text-align: justify;
+    padding: 20px;
+    height: 500px;
+    width: 700px;
+}
+
+div.main-info-image {
+    height: 500px;
+    width: 300px;
+    padding: 75px;
+}
+
+img.profile-pic {
+    width: 200px;
+    border-radius: 30%;
+}
+
+div.work-info {
+    text-align: justify;
+    padding: 5px;
+    height: 500px;
+    width: 300px;
+}
