@@ -898,7 +898,7 @@
 			padding: 0.35em 0 0 3.5em;
 			position: relative;
 			vertical-align: top;
-			width: 48%;
+			width: 96%;
 
 			&:before {
 				background: _palette(accent1, bg);
@@ -1198,7 +1198,7 @@
 			.avatar {
 				display: block;
 				margin: 0 auto _size(element-margin) auto;
-				width: 8em;
+				width: 12em;
 			}
 
 			h1 {
@@ -1681,7 +1681,7 @@
 
 					.avatar {
 						margin: 0 auto (_size(element-margin) * 0.75) auto;
-						width: 6em;
+						width: 10em;
 					}
 
 					h1 {

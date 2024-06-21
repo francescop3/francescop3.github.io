@@ -1437,7 +1437,7 @@ ul.feature-icons {
     padding: 0.35em 0 0 3.5em;
     position: relative;
     vertical-align: top;
-    width: 48%; }
+    width: 96%; }
     ul.feature-icons li:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
@@ -1695,7 +1695,7 @@ input[type="button"],
     #header > header .avatar {
       display: block;
       margin: 0 auto 2.25em auto;
-      width: 8em; }
+      width: 12em; }
     #header > header h1 {
       font-size: 1.75em;
       margin: 0; }
@@ -2010,7 +2010,7 @@ input[type="button"],
       padding: 2em; }
       #header > header .avatar {
         margin: 0 auto 1.6875em auto;
-        width: 6em; }
+        width: 10em; }
       #header > header h1 {
         font-size: 1.5em; }
       #header > header p {
